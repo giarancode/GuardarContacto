@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfirmacionDatos"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tvTituloConfirmarDatos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tituloConfirmarDatos"
+        android:gravity="center_horizontal"
+        android:textSize="@dimen/tituloApp"
+        android:layout_marginTop="@dimen/margenTop"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/etNombreCompleto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nombre"
+        android:layout_marginTop="@dimen/margenTop"
+        android:layout_marginLeft="@dimen/margenes"
+        android:layout_marginRight="@dimen/margenes"
+        android:textSize="@dimen/tamañoLetraNombre"/>
+    <TextView
+        android:id="@+id/etfechaNacimiento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/tamañoLetra"
+        android:hint="@string/hintFechaNacimiento"
+        android:layout_marginTop="@dimen/margenesTOP"
+        android:layout_marginLeft="@dimen/margenes"
+        android:layout_marginStart="@dimen/margenes"/>
+    <TextView
+        android:id="@+id/edTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/tamañoLetra"
+        android:hint="@string/telefono"
+        android:layout_marginTop="@dimen/margenesTOP"
+        android:layout_marginLeft="@dimen/margenes"
+        android:layout_marginStart="@dimen/margenes" />
+    <TextView
+        android:id="@+id/edEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/tamañoLetra"
+        android:hint="@string/correo"
+         android:layout_marginTop="@dimen/margenesTOP"
+        android:layout_marginLeft="@dimen/margenes"
+        android:layout_marginStart="@dimen/margenes" />
+    <TextView
+        android:id="@+id/edDescripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/tamañoLetra"
+        android:hint="@string/descripcion"
+        android:layout_marginTop="@dimen/margenesTOP"
+        android:layout_marginLeft="@dimen/margenes"
+        android:layout_marginStart="@dimen/margenes" />
+    <Button
+        android:layout_width="200sp"
+        android:layout_height="30sp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margenTop"
+        android:text="@string/btnEditarDatos"
+        android:background="@color/colorAccent"
+        android:onClick="devolverAtras"/>
+
+</LinearLayout>

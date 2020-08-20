@@ -1,0 +1,21 @@
+<resources>
+    <string name="titleApp">Formulario De Contacto</string>
+    <string name="btnSiguiente">Siguiente</string>
+    <string name="nombre">Nombre Completo</string>
+    <string name="telefono">Telefono</string>
+    <string name="correo">Email</string>
+    <string name="descripcion">Descripcion Contacto</string>
+    <string name="btnGuardarFecha">Guardar Fecha</string>
+    <string name="tituloConfirmarDatos">Confirmar Datos</string>
+    <string name="btnEditarDatos">Editar Datos</string>
+    <string name="toastEnvio">Envio Satisfactorio</string>
+    <string name="hintFechaNacimiento">Fecha Nacimiento</string>
+    <string name="toastRegresar">Edite Nuevamente Los Campos</string>
+    <string name="toastCalendario">Fecha Guardada</string>
+
+
+
+
+
+
+</resources>
